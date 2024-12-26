@@ -11,3 +11,6 @@ def validate_input(data):
 def log_message(message):
     # 로그 메시지를 출력하는 함수
     print(f"[LOG] {message}")
+
+
+    

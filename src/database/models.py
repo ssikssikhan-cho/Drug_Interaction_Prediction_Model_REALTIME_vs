@@ -18,3 +18,5 @@ class ModelTraining(Base):
     model_name = Column(String, nullable=False)
     training_date = Column(String, nullable=False)
     accuracy = Column(Float, nullable=False)
+
+    

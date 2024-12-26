@@ -30,3 +30,4 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 # 데이터베이스 초기화 호출
 if __name__ == "__main__":
     init_db()
+    

@@ -63,3 +63,4 @@ if __name__ == "__main__":
         "C:/Users/Eunsoo/Desktop/개인프로젝트 백업/중복제거_데이터3.csv"
     ]
     add_existing_data_from_excel(excel_file_paths)
+    

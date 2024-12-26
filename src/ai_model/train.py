@@ -68,3 +68,4 @@ def train_model():
 if __name__ == "__main__":
     model, le_disease = train_model()
     print("모델 훈련이 완료되었습니다.")
+    

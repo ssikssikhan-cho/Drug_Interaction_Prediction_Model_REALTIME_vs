@@ -27,3 +27,4 @@ class SimpleModel:
     def load_model(self, filepath):
         from tensorflow.keras.models import load_model
         self.model = load_model(filepath)
+        
