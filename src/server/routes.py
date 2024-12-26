@@ -41,7 +41,7 @@ def get_real_time_data():
     session = SessionLocal()
     try:
         # 실시간 데이터 가져오기 (예시로 외부 API 호출)
-        response = requests.get('https://api.example.com/real-time-data')
+        response = requests.get('https://www.data.go.kr/data/15056780/openapi.do#/API%20%EB%AA%A9%EB%A1%9D/getUsjntTabooInfoList02')
         data = response.json()
 
         # 데이터베이스에 저장
